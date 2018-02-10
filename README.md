@@ -1,4 +1,4 @@
-# TwentyOnePoints
+# TwentyOnePoints -- change
 This application was generated using JHipster 4.14.0, you can find documentation and help at [http://www.jhipster.tech/documentation-archive/v4.14.0](http://www.jhipster.tech/documentation-archive/v4.14.0).
 
 ## Development
@@ -140,7 +140,6 @@ You can also fully dockerize your application and all the services that it depen
 To achieve this, first build a docker image of your app by running:
 
     ./mvnw verify -Pprod dockerfile:build
-
 Then run:
 
     docker-compose -f src/main/docker/app.yml up -d
